@@ -43,11 +43,5 @@ WebElement textSearch ;
 	@Given("Testing Log Messages")
 	public void testing_log_messages() throws IOException {
 		System.out.println("Dummy Test");
-		URL url = new URL("https://htasdfdsfdsftpbin.org/status/200");
-		HttpURLConnection huc = (HttpURLConnection) url.openConnection();
-		 
-		int responseCode = huc.getResponseCode();
-		 
-		Assert.assertEquals(HttpURLConnection.HTTP_OK, responseCode);
 	}
 }

@@ -1,5 +1,6 @@
-Feature: Test ChatGpt
 
+Feature: Test ChatGpt
+@tag01
   Scenario: Test Values
     Given User Is On Login Page
     When User Types a Text a Value
